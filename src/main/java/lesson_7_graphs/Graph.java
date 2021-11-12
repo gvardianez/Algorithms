@@ -1,6 +1,7 @@
 package lesson_7_graphs;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
 
 public class Graph {
@@ -17,6 +18,7 @@ public class Graph {
         for (int i = 0; i < adjList.length; i++) {
             adjList[i] = new LinkedList<>();
         }
+
     }
 
     public void addEdge(int v1, int v2) {

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MyDeque<T> {
     private T[] array;
     private int size;
-    private final int DEFAULT_CAPACITY = 5;
+    private final int DEFAULT_CAPACITY = 100;
     private int head;
     private int tail;
 

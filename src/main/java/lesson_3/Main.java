@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-//        System.out.println(ReverseString.reverse("qwerty"));
+        System.out.println(ReverseString.reverse("qwerty"));
         MyDeque<Integer> integerMyDeque = new MyDeque<>();
         integerMyDeque.insertLeft(1);
         integerMyDeque.insertLeft(7);
